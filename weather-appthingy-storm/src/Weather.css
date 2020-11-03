@@ -1,26 +1,31 @@
 .Weather {
   display: flex;
-  flex-direction: column
+  flex-direction: column;
+  font-family: 'Lobster', cursive;
 }
 
 .Weather_focused {
-  font-size: 30px
+  font-size: 35px;
+
 }
 
 .Weather_focused img {
-  width: 100px
+  width: 150px;
+
 }
 
 .Weather_forecast {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .Weather_box {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .Weather_box img {
-  width: 50px
+  width: 50px;
 }
