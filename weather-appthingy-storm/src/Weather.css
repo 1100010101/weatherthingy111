@@ -27,9 +27,14 @@
   flex-direction: column;
   padding: 20px;
   color: black;
-  font-size: 15px
+  font-size: 15px;
+  cursor: pointer;
 }
 
 .Weather_box img {
   width: 50px;
+}
+
+.Weather_desc {
+  text-transform: capitalize;
 }

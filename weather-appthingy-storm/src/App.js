@@ -7,7 +7,7 @@ function App() {
     <header className='App-header'>
       Sademyrsky
     </header>
-    <Weather/>
+    <Weather />
       Moi, mitä kuuluu?
     </div>
   )
